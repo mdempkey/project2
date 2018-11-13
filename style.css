@@ -1,0 +1,163 @@
+body{
+	font-family:OCR A Std, monospace;
+	font-size: 30px;
+	text-align: left;
+	cursor: url("https://img.icons8.com/color/50/000000/the-sims.png") 10 10,auto;
+	
+}
+
+h1{
+	font-family:Andale Mono, monospace;
+	font-size: 30px;
+	text-align: left;
+	word-spacing: 60px;
+}
+	
+p{
+	border-style: solid;
+    border-width: 20px;
+	border-color: green;
+
+	}
+	
+h3{
+	font-family:Andale Mono, monospace;
+	font-size: 30px;
+	text-align: center;
+	word-spacing: 60px;
+	
+}
+	
+a:link{
+	color: black;
+	text-decoration: none;
+}
+
+a:visited{
+	color: black;
+}
+
+a:hover{
+	color: black;
+}
+
+h4{
+	align-items: right;
+	border: 10px green solid;
+	font-family: DejaVu Sans Mono, monospace;
+	font-size: 20px ;
+	margin-bottom: 20px;
+	
+}
+
+h5{
+	font-family: DejaVu Sans Mono, monospace;
+	font-size: 30px ;
+}
+	
+.idk {
+	display:grid;
+	grid-template-columns: 1fr 1fr;
+
+}
+.space{
+grid-column: span 1;
+}
+
+.img{
+	display:grid;
+	grid-template-columns: repeat(4, 1fr);
+	margin-left: 88px;
+	margin-right: 40px;
+	grid-gap:100px;
+	align-items: center;
+	padding: 20px;
+}
+
+.word{
+	
+font-size: 60%;
+}
+
+.dlc{
+	display:grid;
+	grid-template-columns: repeat(6, 1fr);
+	grid-gap:1%;
+}
+
+.pics{
+	display:grid;
+	grid-template-columns: repeat(4, 1fr);
+	grid-gap:50px;
+	align-items: center;
+	padding: 20px;
+}
+
+.buy{
+	display:grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-gap:50px;
+	align-items: center;
+	padding: 20px;
+}
+
+
+.flip-box {
+  grid-column: span 1;
+  background-color: transparent;
+  width: 300px;
+  height: 424px;
+  border: 1px solid #black;
+  perspective: 1000px; 
+}
+
+
+.flip-box-home {
+  grid-column: span 1;
+  background-color: transparent;
+  width: 300px;
+  height: 445px;
+  border: 1px solid #black;
+  perspective: 1000px; 
+}
+.flip-box-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+
+.flip-box:hover .flip-box-inner {
+  transform: rotateY(180deg);
+}
+
+
+.flip-box-home:hover .flip-box-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-box-front, .flip-box-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+
+
+.flip-box-front {
+  background-color: black;
+  color: black;
+}
+
+
+.flip-box-back {
+  background-color: black;
+  color: white;
+  transform: rotateY(180deg);
+}
+.small {
+	font-size: 30px;
+}
