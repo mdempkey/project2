@@ -164,11 +164,3 @@ h5{
 	font-size: 30px;
 }
 
-.row {
-  display: flex;
-}
-
-.column {
-  flex: 8.33%;
-  padding: 60%;
-}
