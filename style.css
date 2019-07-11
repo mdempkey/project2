@@ -162,3 +162,20 @@ h5{
 .small {
 	font-size: 30px;
 }
+
+#slider, .wrap, .slide-content{
+	margin:0;
+	paddding:0;
+	font-family:DejaVu Sans Mono, monospace;
+	width:100%;
+	height:100vh;
+	overflow-x:hidden;
+}
+
+.warp{position:relatve}
+.slide{
+	background-size:cover;
+	background-position: center;
+	background-repeat: no-repeat:
+}
+.slide1{background-image: url('images/TSC_OFFICIAL_SCREEN_03_003_1080.png')}
