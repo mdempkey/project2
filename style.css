@@ -169,6 +169,7 @@ h5{
   height: 300px;
   display: flex;
   overflow-x: auto;
+  scroll-behavior: smooth;
 }
 .slide {
   width: 300px;
