@@ -180,6 +180,12 @@ h5{
   font-family:OCR A Std, monospace;
 }
 
+.inside{
+	display:flex;
+	align-items:center;
+	justify-content:center;
+}
+
 .button2:hover {
   box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
 }
