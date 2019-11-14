@@ -19,6 +19,6 @@ function myFunction2() {
 }
 
 function myFunction3() {
-	var element = document.getElementById("sims3");
+	var element = document.getElementById("sims4");
 	w.classList.toggle("go");
 }
