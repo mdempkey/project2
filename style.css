@@ -1,14 +1,8 @@
-html {
-	width:100%;
-	height:100%;	
-}
-
 
 
 body{
 	font-family:OCR A Std, monospace;
 	font-size: 30px;
-	display:flex;
 	text-align: left;
 	cursor: url("https://img.icons8.com/color/50/000000/the-sims.png") 10 10,auto;
 	background-color: FFF0D6;
