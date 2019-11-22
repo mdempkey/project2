@@ -9,6 +9,9 @@ var h = document.getElementById("goths");
 var i = document.getElementById("mor");
 var j = document.getElementById("goths1");
 var k = document.getElementById("goths2");
+var l = document.getElementById("boxs");
+var m = document.getElementById("boxs2");
+var n = document.getElementById("boxs3");
 var o = document.getElementById("myAudio"); 
 var z = document.getElementById("sims1");
 var y = document.getElementById("sims2");
@@ -134,14 +137,19 @@ function newPhoto(){
 }
 function addImg(){
 	h.classList.remove("leave");
+	l.classList.remove("pulse");
+	h.classList.add("pulse");
 }
 
 function addImg2(){
 	i.classList.remove("leave");
+	h.classList.remove("pulse");
+	i.classList.add("pulse");
 }
 function addImg3(){
 	j.classList.remove("leave");
 	k.classList.remove("leave");
+	i.classList.remove("pulse");
 	o.play();
 }
 
