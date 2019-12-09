@@ -47,11 +47,6 @@ p{
 
 }
 
-.in{
-	margin-bottom:50%;
-	width:10%;
-}
-
 .in1{
 	width:10%;
 	margin-top:50%;
@@ -76,7 +71,7 @@ p{
 }
 
 .box{
-	width:25%;
+	width:calc(4/100%);
 	height:100%;
 }
 .rowi{
@@ -91,6 +86,11 @@ p{
 	width:100%;
 	height:15%;
 	display:flex;
+}
+
+.in{
+	margin-bottom:50%;
+	width:10%;
 }
 
 .row2{
@@ -119,8 +119,6 @@ p{
 }
 
 .center {
-  margin-left: auto;
-  margin-right: auto;
   max-height: 100%;
   max-width: 100%;
  
@@ -186,7 +184,9 @@ p{
   }
 }
 
-
+.width{
+	width:100%;
+}
 
 /*tablet*/
 @media only screen and (max-width: 800px) {
@@ -323,7 +323,18 @@ p{
   -webkit-transition-property: box-shadow;
   transition-property: box-shadow;
 }
-.hvr-glow:hover, .hvr-glow:focus, .hvr-glow:active {
+.hvr-glow:hover, .hvr-glow:focus{
   box-shadow: 0 0 35px rgba(0, 0, 0, 0.6);
 }
-	
+ .hvr-glow:active {
+	box-shadow: 0 0 15px rgba(0, 0, 0, 0.6);
+	transform: scale(0.99, 0.99);
+}
+
+.center5{
+	width:17%;
+}
+
+.center6{
+	width:15%;
+}
