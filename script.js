@@ -18,6 +18,7 @@ var y = document.getElementById("sims2");
 var x = document.getElementById("sims3");
 var w = document.getElementById("sims4");
 
+// the code for the images on the fun tab to repeat
 
 var image1array = [
 	"images/IMG_2315.PNG",
@@ -152,7 +153,7 @@ function addImg3(){
 	i.classList.remove("pulse");
 	o.play();
 }
-
+//This code is for the expansisons page (The buttons)
 function myFunction() {
 	var element = document.getElementById("sims1");
 	z.classList.toggle("go");
