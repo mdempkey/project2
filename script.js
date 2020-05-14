@@ -174,19 +174,19 @@ function myFunction3() {
 	w.classList.toggle("go");
 }
 
-if(p="4")
+if(q="4")
 		{
 			alert("== Sul Sul! Welcome to the Sims 4");
 		}
-if(p="3")
+if(q="3")
 		{
 			alert("== Sul Sul! Welcome to the Sims 3");
 		}
-if(p="2")
+if(q="2")
 		{
 			alert("== Sul Sul! Welcome to the Sims 2");
 		}
-if(p="1")
+if(q="1")
 		{
 			alert("== Sul Sul! Welcome to the Sims 1");
 		}
