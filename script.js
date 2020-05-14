@@ -209,7 +209,7 @@ function playAudio2() {
 		}
 }
 
-function playAudio1() { 
+function playAudio3() { 
  r.play(); 
   q=4
 	if(q==4)
