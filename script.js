@@ -17,7 +17,10 @@ var z = document.getElementById("sims1");
 var y = document.getElementById("sims2");
 var x = document.getElementById("sims3");
 var w = document.getElementById("sims4");
+var u = document.getElementById("myAudio");
+var t = document.getElementById("myAudio1"); 
 var q = 0;
+
 
 
 // the code for the images on the fun tab to repeat
@@ -190,13 +193,18 @@ function myFunction2() {
 	 
 }
 
-function myFunction3() {
-	var element = document.getElementById("sims4");
-	w.classList.toggle("go");
-	q=4
-	if(q==4)
-		{
-			alert("== Sul Sul! Welcome to the Sims 4");
-		}
-	
-}
+function playAudio() { 
+  u.play(); 
+} 
+
+function pauseAudio() { 
+  u.pause(); 
+} 
+ 
+function playAudio1() { 
+  t.play(); 
+} 
+
+function pauseAudio1() { 
+  t.pause(); 
+} 
