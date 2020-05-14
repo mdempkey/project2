@@ -17,7 +17,7 @@ var z = document.getElementById("sims1");
 var y = document.getElementById("sims2");
 var x = document.getElementById("sims3");
 var w = document.getElementById("sims4");
-var q =0;
+var q = 0;
 
 // the code for the images on the fun tab to repeat
 
@@ -158,39 +158,39 @@ function addImg3(){
 function myFunction() {
 	var element = document.getElementById("sims1");
 	z.classList.toggle("go");
-	q=1
+	var q=1
 }
 
 function myFunction1() {
 	var element = document.getElementById("sims2");
 	y.classList.toggle("go");
-	q=2
+	var q=2
 }
 
 function myFunction2() {
 	var element = document.getElementById("sims3");
 	x.classList.toggle("go");
-	q=3
+	var q=3
 }
 
 function myFunction3() {
 	var element = document.getElementById("sims4");
 	w.classList.toggle("go");
-	q=4
+	var q=4
 
-if(q=4)
+if(var q=4)
 		{
 			alert("== Sul Sul! Welcome to the Sims 4");
 		}
-if(q=3)
+if( var q=3)
 		{
 			alert("== Sul Sul! Welcome to the Sims 3");
 		}
-if(q=2)
+if(var q=2)
 		{
 			alert("== Sul Sul! Welcome to the Sims 2");
 		}
-if(q=1)
+if( var q=1)
 		{
 			alert("== Sul Sul! Welcome to the Sims 1");
 		}
