@@ -173,3 +173,21 @@ function myFunction3() {
 	var element = document.getElementById("sims4");
 	w.classList.toggle("go");
 }
+
+if(p="4")
+		{
+			alert("== Sul Sul! Welcome to the Sims 4");
+		}
+if(p="3")
+		{
+			alert("== Sul Sul! Welcome to the Sims 3");
+		}
+if(p="2")
+		{
+			alert("== Sul Sul! Welcome to the Sims 2");
+		}
+if(p="1")
+		{
+			alert("== Sul Sul! Welcome to the Sims 1");
+		}
+
