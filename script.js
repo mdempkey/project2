@@ -158,39 +158,40 @@ function addImg3(){
 function myFunction() {
 	var element = document.getElementById("sims1");
 	z.classList.toggle("go");
-	var q=1
+	q=1
 }
 
 function myFunction1() {
 	var element = document.getElementById("sims2");
 	y.classList.toggle("go");
-	var q=2
+	q=2
 }
 
 function myFunction2() {
 	var element = document.getElementById("sims3");
 	x.classList.toggle("go");
-	var q=3
+	 q=3
 }
 
 function myFunction3() {
 	var element = document.getElementById("sims4");
 	w.classList.toggle("go");
-	var q=4
+	q=4
+	
 
-if(var q=4)
+if(q==4)
 		{
 			alert("== Sul Sul! Welcome to the Sims 4");
 		}
-if( var q=3)
+if(q==3)
 		{
 			alert("== Sul Sul! Welcome to the Sims 3");
 		}
-if(var q=2)
+if(q==2)
 		{
 			alert("== Sul Sul! Welcome to the Sims 2");
 		}
-if( var q=1)
+if(q==1)
 		{
 			alert("== Sul Sul! Welcome to the Sims 1");
 		}
