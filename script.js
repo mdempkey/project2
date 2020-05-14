@@ -18,7 +18,7 @@ var y = document.getElementById("sims2");
 var x = document.getElementById("sims3");
 var w = document.getElementById("sims4");
 var q = 0;
-var u = document.getElementById("bt1);
+var u = document.getElementById("bt1");
 
 // the code for the images on the fun tab to repeat
 
