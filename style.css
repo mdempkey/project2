@@ -184,6 +184,22 @@ h5{
   font-family:OCR A Std, monospace;
 }
 
+.button0 {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 5px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+  margin: 2px 1px;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  font-family:OCR A Std, monospace;
+}
+
 .inside{
 	display:flex;
 	align-items:center;
