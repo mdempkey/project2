@@ -157,21 +157,25 @@ function addImg3(){
 function myFunction() {
 	var element = document.getElementById("sims1");
 	z.classList.toggle("go");
+	z="1"
 }
 
 function myFunction1() {
 	var element = document.getElementById("sims2");
 	y.classList.toggle("go");
+	y="2"
 }
 
 function myFunction2() {
 	var element = document.getElementById("sims3");
 	x.classList.toggle("go");
+	x="3"
 }
 
 function myFunction3() {
 	var element = document.getElementById("sims4");
 	w.classList.toggle("go");
+	w="4"
 }
 
 if(w="4")
