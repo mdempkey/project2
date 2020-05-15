@@ -217,3 +217,16 @@ function playAudio3() {
 			alert("== Sul Sul! Welcome to the Sims 4");
 		}
 }
+
+
+var i = 0;
+var txt = 'DLC"S are packs for The Sims that add on into gameplay..';
+var speed = 50;
+
+function typeWriter() {
+  if (i < txt.length) {
+    document.getElementById("demo").innerHTML += txt.charAt(i);
+    i++;
+    setTimeout(typeWriter, speed);
+  }
+}
