@@ -220,7 +220,7 @@ function playAudio3() {
 
 
 var i = 0;
-var txt = 'DLC"S are packs for The Sims that add on into gameplay..';
+var txt = 'DLC^S are packs for The Sims that add on into gameplay... they can range from expansion packs to stuff packs..';
 var speed = 50;
 
 function typeWriter() {
