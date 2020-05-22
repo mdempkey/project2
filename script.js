@@ -219,14 +219,14 @@ function playAudio3() {
 }
 
 
-var i = 0;
+var tt = 0;
 var txt = 'DLC^S are packs for The Sims that add on into gameplay... they can range from expansion packs to stuff packs..';
 var speed = 50;
 
 function typeWriter() {
-  if (i < txt.length) {
-    document.getElementById("demo").innerHTML += txt.charAt(i);
-    i++;
+  if (tt < txt.length) {
+    document.getElementById("demo").innerHTML += txt.charAt(tt);
+    tt++;
     setTimeout(typeWriter, speed);
   }
 }
