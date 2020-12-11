@@ -64,6 +64,7 @@ h5{
 
 .space{
 	grid-column: span 1;
+	display:flex;
 }
 
 .img{
