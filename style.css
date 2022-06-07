@@ -325,7 +325,7 @@ h5{
 }
 .image:hover, .image:focus{
   box-shadow: 0 0 35px rgba(0, 0, 0, 0.6);
-}
+} 
  .image:active {
 	box-shadow: 0 0 15px rgba(0, 0, 0, 0.6);
 }
