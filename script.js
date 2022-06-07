@@ -35,9 +35,9 @@ function(){
 		.siblings("p:visible").slideUp("slow");
 		$(this).toggleClass("active");
 		$(this).siblings("h3").removeClass("active");
-	});
+	})
 
-});
+})
 
 
 
