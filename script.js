@@ -25,7 +25,7 @@ var q = 0;
 
 // code for buy page 
 
-$(document).ready(function(){
+function(){
 	
 	$(".accordion h3:first").addClass("active");
 	$(".accordion p:not(:first)").hide();
