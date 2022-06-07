@@ -24,7 +24,7 @@ var r = document.getElementById("myAudio3");
 var q = 0;
 
 
-// the code for the images on the fun tab to repeat
+// the code for the images on the fun tab to repeat 
 
 var image1array = [
 	"images/IMG_2315.PNG",
