@@ -24,6 +24,13 @@ var r = document.getElementById("myAudio3");
 var q = 0;
 
 
+$(document).ready(function(){  
+  $("#1").hover(function(){  
+    $(this).attr('src','images/plan.jpg');  
+    }, function(){  
+    $(this).attr('src','images/modd.jpg');  
+  })
+})
 
 
 // the code for the images on the fun tab to repeat
